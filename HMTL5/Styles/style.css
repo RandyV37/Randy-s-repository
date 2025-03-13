@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Krona+One&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.header{
+   color: white;
+   font-size: 28px;
+   display: flex;
+   padding: 2% 0% 0% 13%;
+   margin-top: 5%;
+}
+
+
+.header-menu{
+   display: flex;
+   justify-content: left;
+   align-items: center;
+   width: 100%;
+   padding: 0 38px;
+}
+.header-menu-link{
+   font-family: "Montserrat", sans-serif;
+   font-size: 24px;
+   font-weight: 400;
+   text-decoration: none;
+   color: white;
+   padding: 10px 15px
+}
+.header-menu-link:hover {
+   color: #007bff;
+}
+body {
+    background-color: #000000;
+    color: white;
+    box-sizing: border-box;
+}
+
+.titulos {
+    color: cyan;
+}
+
+p {
+    margin: 8px 15px;
+    border: 2px solid black;
+    padding: 5px;
+ }
+
+ .presentacion {
+    display: flex;
+    align-items: center;
+    margin: 5%;
+    justify-content: space-between;
+ }
+ 
+ .presentacion-texto {
+    width: 615px;
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    margin-left: auto;
+    margin-right: auto; 
+ }
+
+ .presentacion-texto-titulo {
+    font-size: 36px;
+    font-family: "Krona One", sans-serif;
+ }
+
+ .presentacion-texto-descripcion {
+    font-size: 24px;
+    font-family: "Montserrat", sans-serif;
+    margin-left: auto;
+    margin-right: auto; 
+ }
+
+ .presentacion-enlaces{
+      display: flex;
+      justify-content: space-between;
+      flex-direction: column;
+      align-items: center;
+      gap: 32px;
+ }
+
+ .presentacion-enlace-boton{
+   width:378px;
+   text-align: center;
+   padding: 21.5px 0;
+   border-radius: 8px;
+   font-family: "Montserrat", sans-serif;
+   font-size: 24px;
+   font-weight: 600;
+   text-decoration: none;
+   color: white;
+   border: 2px solid cyan;
+   display: flex;
+   justify-content: center;
+   gap: 10px;
+ }
+
+ .presentacion-enlace-subtitulo{
+   font-family: "Krona One", sans-serif;
+   font-size: 24px;
+   font-weight: 400;
+ }
+
+ .presentacion-enlace-boton:hover{
+   background-color: #272727;
+   border: 2px solid yellowgreen;
+   cursor: pointer;
+ }
+
+ .footer-texto{
+   background-color: aquamarine;
+   color: black;
+   font-family: "Montserrat", sans-serif;
+   font-size: 24px;
+   font-weight: 400;
+   padding: 24px;
+   display: flex;
+   justify-content: center;
+ }
